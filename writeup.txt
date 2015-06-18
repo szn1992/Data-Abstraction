@@ -1,0 +1,51 @@
+Write up
+1.	Jiahui Xu and Zhuonan Sun 
+2.	Textbook, TA’s office hour
+3.	A) One week
+B) Implementing different data structures for DataCount class.
+C) Write more thorough tests for each data structure class, remove redundancy
+
+4.	We did not implement any “above and beyond” projects
+5.	A) Before each test, we will create the specific data structure and set the limited time for each run. Each test method would compare the expected value with the actual value. Those test methods test all methods TestDataCounter.java has. We test size, count of each element, and iterator for each class.
+B) Our test methods did not test the element returned by iterator.next().
+C) Boundary cases
+
+6.	A) BinarySearchTree uses an explicit stack because we have to iterate each node individually, and we could not iterate each node without a stack structure.
+B) We could initially set the size of the stack as the height of the AVL tree, thus, stack size would always be the same.
+
+7.	For AVLTree and BSTree, we could iterate the tree in reverse order, starting from the bottom-right most node, since elements with higher frequencies appear at the bottom of BST. It would be O(N) time.
+For Hashtable/MoveToFrontList, we could go through every DataCount object stored in the data structure, and find the maximum every time we go through the entire list. Sorting all elements in this way, so the complexity would be O(N^2).
+
+8.	Hasher and comparator must be correct. The hasher passed should be a string, and the comparator should compare words properly.
+
+9.	A)
+HashTable and MergeSort produce the fastest results.
+
+Our process: we calculate the running time for each possible combination of DataCounter implementation and Sorting implementation three times, and get the average running time of each combination. This is the table of running time we have for each combination:
+
+We use the System.currentTimeMillis() method to calculate the running time, and call countWords(new String[]{“-b”, “-is”, args[2]}); 3 times for 12 combinations.
+
+
+
+
+
+// before calling the combination
+long startTime = System.currentTimeMillis();
+System.out.println(time1);
+// calling main method
+WordCount.main(args);
+// running time after we run the combination
+long endTime = System.currentTimeMillis();
+// difference between two times
+System.out.println(time2 – time1);
+
+
+Running time tests for hamlet.txt
+
+
+
+
+
+
+
+
