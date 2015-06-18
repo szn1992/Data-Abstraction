@@ -1,0 +1,19 @@
+Zhuonan Sun and Jiahui Xu
+March 12, 2014
+CSE332 Project3 write up
+
+1.	Zhuonan Sun and Jiahui Xu 
+2.	We used bitbucket.org to upload and share codes.
+3.	Each phase took us about three days to finish. 
+Understanding forking, joining and implementing version5 with locks was the most difficult part. We also had to deal with edge cases of the map, and fixed lots of small problems related to edge cases.
+We could have written a more thorough test class to test internal methods in the project.
+4.	We did not implement any “Above&Beyond” projects.
+5. 
+
+
+6. 
+7.
+8.
+9. 
+a and b. My partner wrote version1, version2 and version3, and I wrote version4 and 5. We helped each other to debug codes and we wrote testFindPopulation together. I wrote a simple test class, and my partner added more possible cases into the test class. We used the known values in the discussion board to test our cases. 
+c. One good thing is that when one of us had some problems, the other person could help to figure that out, and we also helped each other to debug programs. It is more efficient to work with another person. One bad thing is that we had to find time that we could work together to do the project, since we got different schedules. 
